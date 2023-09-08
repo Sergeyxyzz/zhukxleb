@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Обрати внимание на тэг LinearLayout! -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:paddingTop="5dp"
+        android:text="@string/title"
+        android:textAllCaps="false" />
+
+    <Spinner
+        android:id="@+id/employeesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/employeesList"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDisplay"
+        android:layout_marginBottom="30dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textEmployees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textView"
+        android:isScrollContainer="true"
+        tools:layout_editor_absoluteX="158dp"
+        />
+
+</LinearLayout>

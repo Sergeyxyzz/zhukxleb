@@ -1,0 +1,21 @@
+<resources>
+    <string name="title">Персонал подразделений <b>ООО Жуковский Хлеб</b></string>
+    <string name="app_name">ZhukXlebPersonal</string>
+    <string name="btnDisplay">Отобразить информацию</string>
+    <string name="textView"></string>
+    <string-array name="employeesList">
+        <item>Упаковка</item>
+        <item>Рондо</item>
+        <item>Резка хлеба</item>
+        <item>Клининг</item>
+        <item>Тестоводы</item>
+        <item>Начинщики</item>
+        <item>Грузчики</item>
+        <item>Руководство</item>
+        <item>Слесаря</item>
+        <item>Ремесленники</item>
+        <item>Пекари</item>
+        <item>Кондитера</item>
+        <item>Старшие смены</item>
+    </string-array>
+</resources>
